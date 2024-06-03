@@ -1,44 +1,64 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
 
 
-
-.footer a {
+.footer .icon-link {
     font-size: 25px;
     color: #000;
 }
 
-.publication-block {
-    padding-bottom: 1em;
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+
+.publication-title {
 }
 
 .publication-banner {
-    height: 160px;
-    background-size: cover;
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
 }
 
 .publication-header .hero-body {
-    padding-bottom: 0 !important;
 }
 
 .publication-title {
-    color: #000;
-    width: fit-content;
-    font-family: 'Google Sans', serif;
-    margin: 0 !important;
-    font-weight: bold;
-    font-size: 18px !important;
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
 }
 
 .publication-venue {
     color: #555;
     width: fit-content;
-    margin-top: 0;
-    font-style: italic;
-}
-
-.publication-venue-emph {
-    font-weight: 600;
-    font-style: normal;
-    color: #e63946;
+    font-weight: bold;
 }
 
 .publication-awards {
@@ -58,26 +78,8 @@
     text-decoration: underline;
 }
 
-.publication-mousecell {
-    position: relative;
-    font-size: 0;
-}
-
-.publication-mousecell video {
-    display: none;
-}
-
-.publication-mousecell img, .publication-mousecell video {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-}
-
-.publication-mousecell {
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    overflow: hidden;
+.author-block {
+  display: inline-block;
 }
 
 .publication-banner img {
@@ -85,16 +87,6 @@
 
 .publication-authors {
   /*color: #4286f4;*/
-}
-
-.publication-description {
-    color: #333;
-    margin: 0.5em 0;
-}
-
-.publication-links {
-    margin: 0 !important;
-    margin-top: 0.5em !important;
 }
 
 .publication-video {
@@ -117,4 +109,29 @@
 
 .publication-body img {
 }
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
+}
+
+
 
