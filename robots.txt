@@ -1,10 +1,10 @@
 User-agent: Googlebot
-Disallow: https://pages.cs.huji.ac.il/jonathan-kahana/static/pdfs/resume.pdf
+Disallow: https://asafshul.github.io/static/pdfs/resume.pdf
 Disallow: /static/pdfs/resume.pdf
-Disallow: jonathan-kahana/static/pdfs/resume.pdf
+Disallow: asafshul.github.io/static/pdfs/resume.pdf
 Disallow: /*.pdf$
 
 User-agent: *
 Allow: /
 
-Sitemap: https://pages.cs.huji.ac.il/jonathan-kahana/sitemap.txt
+Sitemap: https://asafshul.github.io/sitemap.txt
